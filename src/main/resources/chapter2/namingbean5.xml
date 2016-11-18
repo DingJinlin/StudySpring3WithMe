@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="bean1;alias11,alias12;alias13 alias14" class="cn.javass.spring.chapter2.helloworld.HelloImpl"/>
+    <bean id="bean2" name="alias21;alias22" class="cn.javass.spring.chapter2.helloworld.HelloImpl"/>
+</beans>
