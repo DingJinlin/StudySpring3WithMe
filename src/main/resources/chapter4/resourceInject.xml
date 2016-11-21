@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="resourceBean1" class="cn.javass.spring.chapter4.bean.ResourceBean3">
+        <property name="resource" value="test1.txt"/>
+    </bean>
+    <bean id="resourceBean2" class="cn.javass.spring.chapter4.bean.ResourceBean3">
+        <property name="resource" value="classpath:cn/javass/spring/chapter4/bean/test1.txt"/>
+    </bean>
+</beans>
